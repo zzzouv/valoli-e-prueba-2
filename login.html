@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValoLine - Inicio de sesión</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Iniciar sesión</h1>
+        <form action="php/login.php" method="post" id="loginForm">
+            <div class="username">
+                <input type="text" id="username" name="nombre_usuario" required>
+                <label>Ingrese nombre de usuario</label>
+            </div>
+            <div class="username">
+                <input type="password" id="password" name="contrasena" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">¿Olvidaste la contraseña?</div>
+            <input type="submit" value="Iniciar sesión">
+            <div class="registrarse">
+                ¿No tienes una cuenta? <a href="register.html">Regístrate</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
